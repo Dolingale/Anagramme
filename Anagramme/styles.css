@@ -1,0 +1,37 @@
+body{
+    height: 590px;
+    padding: 0;
+    margin: 0;
+    background-color: lightgrey;
+}
+
+h2{
+    text-align: center;
+}
+
+.div_pseudo{
+    text-align: center;
+    padding-top: 150px;
+    padding-bottom:100px;
+}
+
+#all_pseudos{
+    width: 100%;
+    height: auto;
+    padding: 0;
+    margin: 0;
+}
+
+/* .pseudos_ul{
+    justify-content: center;
+    text-align: center;
+} */
+
+.pseudo_li{
+    min-width: 25%;
+    max-width: 100%;
+    display: inline-flex;
+    /* text-align: center; */
+    justify-content: center;
+    padding: 3px 0;
+}
